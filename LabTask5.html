@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="form.css" />
+<title>Task 5 Form</title>
+<style>
+.body{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+.whole{
+background-color:white;
+height: 440px;
+width: 640px;
+box-shadow: 1px 1px 10px 2px gray;
+}
+</style>
+</head>
+<body>
+<div class="whole">
+<h1 class="h1">User Registration Form</h1>
+<p class="h2">Form Validated Using Javascript</p>
+<section>
+<form>
+<!-- <label for="name"> Name</label> -->
+<div>
+<input type="text" name="firstName" placeholder="FirstName" />
+<input type="text" placeholder="LastName" />
+</div>
+<br />
+<div>
+<input type="email" name="LastName" placeholder="Email" />
+</div>
+<br />
+<div>
+<input
+type="email"
+name="MyEmail"
+placeholder="Re- Enter Your Email ID"
+/>
+</div>
+<br />
+<div>
+<input type="password" placeholder="New Password" />
+</div>
+<div>
+<label for="Birthday"><strong>Birthday::</strong></label>
+<br />
+<select name="month" id="Month">
+<option value="month">Month</option>
+<option>Jan</option>
+<option>Feb</option>
+<option>Mar</option>
+<option>April</option>
+<option>May</option>
+<option>June</option>
+<option>July</option>
+<option>August</option>
+<option>September</option>
+<option>October</option>
+<option>Nevember</option>
+<option>December</option>
+</select>
+<select name="Day" id="Day">
+<option value="day">Day</option>
+<option>Mon</option>
+<option>tues</option>
+<option>Wed</option>
+<option>Thurs</option>
+<option>Friday</option>
+<option>Saturday</option>
+<option>Sunday</option>
+</select>
+<select name="Year" id="Year">
+<option value="year">Year</option>
+<option>1996</option>
+<option>1997</option>
+<option>1998</option>
+<option>1999</option>
+<option>2000</option>
+<option>2001</option>
+<option>2002</option>
+<option>2003</option>
+<option>2004</option>
+<option>2005</option>
+<option>2006</option>
+<option>2007</option>
+<option>2008</option>
+<option>2009</option>
+<option>2010</option>
+</select>
+</select>
+</div><br />
+<!-- Radio Buttons -->
+<div>
+<input type="radio" value="FeMale" />
+<label for="Name"> Female</label>
+<input type="radio" value="Male" />
+<label for="Name"> Male</label> 
+</div>
+</form>
+<input type="submit" value="Submit Now" />
+</section>
+</div>
+</body>
+</html>

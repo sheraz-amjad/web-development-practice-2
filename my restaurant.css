@@ -1,0 +1,111 @@
+header{
+    background-color: rgb(86, 119, 188);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 1.5px;
+}
+ul li{
+    display: inline;
+    text-align: center;
+    color: aliceblue;
+}
+a:-webkit-any-link {
+  color: aliceblue;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+body{
+    
+   
+  background-color:white;
+  font-family: 'Inconsolata', monospace;
+
+margin: 0px;
+padding: 0px;
+    
+    font-size: medium;
+}
+
+.one{
+  color: blue;
+  }
+  
+h1{
+    display: block;
+    text-align: center;
+    background-color:rgb(86, 119, 188);
+    color: white;
+    
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color:rgb(86, 119, 188);
+    border: 2px black;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    border: 2px white;
+  }
+  
+  th {
+    background-color:rgb(86, 119, 188);
+    color: white;
+  }
+  .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  img{
+    height: 260px;
+  }
+  h2{
+    background-color:rgb(86, 119, 188);
+    color: whitesmoke;
+    display: block;
+    text-align: center;
+  }
+  img {
+    transition: opacity 0.5s ease;
+  }
+  
+  img:hover {
+    opacity: 0.8;}
+    img {
+        animation-name: slidein;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+      }
+      
+      @keyframes slidein {
+        from {
+          transform: translateX(-100%);
+        }
+        to {
+          transform: translateX(0);
+        }
+      }
+h3{
+    background-color:rgb(86, 119, 188);
+    color: whitesmoke;
+    display: block;
+    text-align: center;
+    
+}
+footer{
+  text-align: center;
+    background-color:rgb(86, 119, 188);
+color: white;
+} 
+.about{
+    display: block;
+    text-align: center;
+
+}     
+

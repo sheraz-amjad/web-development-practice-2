@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Formin HTML</title>
+</head>
+<body>
+    <h2> My First Form in HTML </h2>
+    <form action="backend.php">
+        <label for="name"> Name</label>
+<div>
+    <input type="text" name ="myName" id="name"> 
+    
+</div>
+<br>
+<label for="FName">F Name</label>
+<div>
+    <input type="text" FName ="myFName"id="FName">
+</div>
+<br>
+<div>
+    Role =<input type="text" name ="myRole">
+</div>
+<br>
+<div>
+    <input type="date">
+</div>
+<br>
+<div>
+<label for="job">Job</label>
+<select name="myJob" id="job">
+    <option value="int">Manager</option>
+<option value="sm">SaleMan</option>
+<option value="ac">Accountant</option>
+</select>
+</div>
+<br>
+<div>
+    Bounce :<input name="number" >
+</div>
+<br>
+<div>
+    Are you eligilble:<input type="checkbox" checked >
+</div>
+<br>
+<div>
+    Gender: Male<input type="radio" name="myGender"> Female <input type="radio" name="myGender"> Other <input type="radio" name="myGender">
+</div>
+<br>
+<div>
+    write about yourself:<br><textarea name="mytext"  cols="30" rows="10"></textarea>
+</div>
+<br>
+<div>
+    <input type="submit" value ="Submit Now">
+</div>
+<br>
+<div>
+    <input type="reset" value ="Reset Now">
+</div>
+    </form>
+</body>
+</html>
